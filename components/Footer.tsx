@@ -86,7 +86,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-5 text-xs leading-[1.6] text-white/45">
-          <div>© 2026 경인장애인선교회 · 우리함께 평생교육·나눔센터. All rights reserved.</div>
+          <div>© 2026 사단법인 예수교장로회 경인교회 부설 경인장애인선교회. All rights reserved.</div>
           <div className="flex gap-4">
             <a href="/about/certificate" className="hover:text-white">고유번호증</a>
             <a href="/about/documents" className="hover:text-white">정관 PDF</a>

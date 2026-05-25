@@ -18,7 +18,7 @@ export default function Header() {
           </div>
           <div className="flex min-w-0 flex-col leading-tight">
             <span className="truncate text-[15px] font-extrabold tracking-tight text-text sm:text-[17px]">우리함께 평생교육·나눔센터</span>
-            <span className="mt-px truncate text-[10.5px] tracking-wide text-text-light sm:text-[11px]">경인장애인선교회 · 경인 공익네트워크</span>
+            <span className="mt-px truncate text-[10.5px] tracking-wide text-text-light sm:text-[11px]">사단법인 예수교장로회 경인교회 부설 경인장애인선교회</span>
           </div>
         </a>
         <nav className="hidden lg:block">
