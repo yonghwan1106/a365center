@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Proof() {
   return (
-    <section className="py-20">
-      <div className="wrap grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-9">
+    <section className="pt-10 pb-12 md:pt-12 md:pb-14">
+      <div className="wrap grid grid-cols-1 gap-9 lg:grid-cols-[1.35fr_1fr] lg:items-start">
         {/* 후기 */}
         <div>
           <div className="text-center mb-6">
-            <h3 className="font-extrabold text-[22px] text-text tracking-tight">실제 수강생 이야기</h3>
+            <h3 className="text-[22px] font-extrabold tracking-tight text-text">실제 수강생 이야기</h3>
           </div>
           <div className="relative mb-4 aspect-[16/10] overflow-hidden rounded-2xl border border-line bg-white shadow-card-sm">
             <Image
@@ -24,7 +24,7 @@ export default function Proof() {
               { initial: "김", quote: "스마트폰도 몰랐는데 지금은 손주랑 카톡합니다.", who: "— 김○○님 (68세)", grad: "from-[#E8C99B] to-[#8E7050]" },
               { initial: "박", quote: "처음으로 온라인 수익이 생겼어요.", who: "— 박○○님 (63세)", grad: "from-[#A8B5A0] to-[#5C7060]" },
             ].map((r, i) => (
-              <div key={i} className="bg-white border border-line rounded-[18px] p-[22px] flex gap-[14px] items-start">
+              <div key={i} className="flex items-start gap-[14px] rounded-2xl border border-line bg-white p-[22px] shadow-card-sm">
                 <div className={`w-16 h-16 rounded-full flex-shrink-0 bg-gradient-to-br ${r.grad} flex items-center justify-center text-white font-extrabold text-2xl shadow-card-sm`}>
                   {r.initial}
                 </div>
@@ -42,7 +42,7 @@ export default function Proof() {
         </div>
 
         {/* 숫자 */}
-        <div>
+        <div className="lg:pt-9">
           <div className="text-center mb-6">
             <h3 className="font-extrabold text-[22px] text-text tracking-tight">숫자로 보는 우리함께</h3>
           </div>
@@ -53,7 +53,7 @@ export default function Proof() {
               { ic: "🤝", v: "3사역", l: "나눔 활동", bg: "bg-[#FED7AA]", color: "text-[#9A3412]" },
               { ic: "💝", v: "100%", l: "무료 운영", bg: "bg-[#FEE2E2]", color: "text-[#991B1B]" },
             ].map((n, i) => (
-              <div key={i} className="bg-white border border-line rounded-2xl p-5 flex gap-[14px] items-center">
+              <div key={i} className="flex min-h-[74px] items-center gap-[14px] rounded-2xl border border-line bg-white p-5 shadow-card-sm">
                 <div className={`w-11 h-11 rounded-xl flex items-center justify-center text-xl flex-shrink-0 ${n.bg} ${n.color}`}>
                   {n.ic}
                 </div>

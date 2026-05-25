@@ -5,6 +5,7 @@ export default function Pillars() {
     {
       tag: "01",
       tagBg: "bg-[#92400E]",
+      href: "/foodbank",
       image: "/images/generated/foodbank-sharing-card.png",
       alt: "푸드뱅크 나눔 카드뉴스",
       title: "푸드뱅크",
@@ -19,6 +20,7 @@ export default function Pillars() {
     {
       tag: "02",
       tagBg: "bg-[#1E40AF]",
+      href: "/space-sharing",
       image: "/images/generated/space-sharing-card.png",
       alt: "공간 공유 카드뉴스",
       title: "공간 공유",
@@ -34,6 +36,7 @@ export default function Pillars() {
     {
       tag: "03",
       tagBg: "bg-[#4338CA]",
+      href: "/citizen-journalist",
       image: "/images/generated/citizen-journalist-card.png",
       alt: "시민기자단 카드뉴스",
       title: "시민기자단",
@@ -49,14 +52,14 @@ export default function Pillars() {
   ];
 
   return (
-    <section id="pillars" className="py-20">
+    <section id="pillars" className="scroll-mt-24 py-12 md:py-14">
       <div className="wrap">
-        <div className="text-center mb-12">
-          <h2 className="font-extrabold text-3xl text-text tracking-tight">이웃과 함께하는 세 가지 사역</h2>
+        <div className="mb-10 text-center md:mb-12">
+          <h2 className="break-keep text-[28px] font-extrabold leading-[1.25] tracking-tight text-text md:text-3xl">이웃과 함께하는 세 가지 사역</h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {items.map((p, i) => (
-            <a key={i} href="#" className="group bg-white border border-line rounded-[20px] overflow-hidden hover:-translate-y-[6px] hover:shadow-card-lg transition-all">
+            <a key={i} href={p.href} className="group bg-white border border-line rounded-[20px] overflow-hidden hover:-translate-y-[6px] hover:shadow-card-lg transition-all">
               <div className="relative aspect-[16/10] overflow-hidden bg-bg-soft">
                 <Image
                   src={p.image}

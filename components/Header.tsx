@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-[rgba(251,245,235,0.94)] backdrop-blur-md border-b border-line">
-      <div className="wrap flex items-center justify-between min-h-[72px] gap-3 py-3 md:h-[74px] md:gap-6 md:py-0">
+      <div className="wrap flex items-center justify-between min-h-[72px] gap-3 py-3 lg:h-[74px] lg:gap-5 lg:py-0">
         <div className="flex min-w-0 items-center gap-3">
           <div className="relative h-11 w-11 flex-shrink-0 md:h-12 md:w-12">
             <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
@@ -21,19 +21,19 @@ export default function Header() {
             <span className="mt-px truncate text-[10.5px] tracking-wide text-text-light sm:text-[11px]">경인장애인선교회 · 경인 공익네트워크</span>
           </div>
         </div>
-        <nav className="hidden md:block">
-          <ul className="flex gap-8 list-none">
+        <nav className="hidden lg:block">
+          <ul className="flex list-none gap-5 xl:gap-7">
             {[
-              { href: "#about", label: "센터소개" },
-              { href: "#education", label: "디지털 교육" },
+              { href: "/about", label: "센터소개" },
+              { href: "/education", label: "디지털 교육" },
               { href: "/education/ai-teacher", label: "AI 선생님" },
-              { href: "#pillars", label: "나눔 사역" },
-              { href: "#pillars", label: "푸드뱅크" },
-              { href: "#pillars", label: "시민기자단" },
-              { href: "#contact", label: "오시는 길" },
+              { href: "/pillars", label: "나눔 사역" },
+              { href: "/foodbank", label: "푸드뱅크" },
+              { href: "/citizen-journalist", label: "시민기자단" },
+              { href: "/contact", label: "오시는 길" },
             ].map((item, i) => (
               <li key={i}>
-                <a href={item.href} className="font-semibold text-[15px] text-text py-2 hover:text-red transition-colors">
+                <a href={item.href} className="py-2 text-[14px] font-bold text-text transition-colors hover:text-red xl:text-[15px]">
                   {item.label}
                 </a>
               </li>
@@ -42,7 +42,7 @@ export default function Header() {
         </nav>
         <a
           href="tel:010-9867-3121"
-          className="inline-flex flex-shrink-0 items-center gap-1.5 rounded-full bg-red px-3 py-2.5 text-[13px] font-extrabold text-white shadow-[0_6px_18px_rgba(229,57,53,0.30)] transition-all hover:-translate-y-px hover:bg-red-dark sm:gap-2 sm:px-[22px] sm:py-[11px] sm:text-[15px]"
+          className="inline-flex flex-shrink-0 items-center gap-1.5 rounded-full bg-red px-3 py-2.5 text-[13px] font-extrabold text-white shadow-[0_6px_18px_rgba(229,57,53,0.30)] transition-all hover:-translate-y-px hover:bg-red-dark sm:gap-2 sm:px-4 sm:py-[11px] sm:text-[14px] xl:px-[22px] xl:text-[15px]"
         >
           <span aria-hidden="true">☎</span>
           <span className="hidden sm:inline">010-9867-3121</span>

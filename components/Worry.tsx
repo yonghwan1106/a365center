@@ -1,11 +1,11 @@
 export default function Worry() {
   return (
-    <section className="pt-20 pb-[60px]">
+    <section className="bg-bg pt-12 pb-10 md:pt-14 md:pb-12">
       <div className="wrap">
-        <h2 className="mb-12 text-center text-[28px] font-extrabold leading-[1.25] tracking-tight text-text md:text-3xl">
+        <h2 className="mb-8 text-center text-[28px] font-extrabold leading-[1.25] tracking-tight text-text md:mb-10 md:text-3xl">
           혹시 이런 고민 있으신가요?
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-[repeat(3,1fr)_auto_1fr] gap-5 items-stretch">
+        <div className="grid grid-cols-1 items-stretch gap-4 md:grid-cols-[repeat(3,1fr)_56px_1.1fr] md:gap-5">
           {[
             { face: "📱", text: "스마트폰이\n너무 어렵다" },
             { face: "🏥", text: "병원 예약을\n혼자 못 한다" },
@@ -13,19 +13,19 @@ export default function Worry() {
           ].map((it, i) => (
             <div
               key={i}
-              className="bg-white px-[22px] py-8 rounded-[18px] text-center border border-line hover:-translate-y-[3px] hover:shadow-card-md transition-all"
+              className="rounded-2xl border border-line bg-white px-5 py-7 text-center shadow-card-sm transition-all hover:-translate-y-[3px] hover:shadow-card-md"
             >
-              <div className="text-5xl mb-3">{it.face}</div>
+              <div className="mb-3 text-[42px] leading-none">{it.face}</div>
               <p className="font-bold text-[15.5px] text-text leading-[1.55] whitespace-pre-line">{it.text}</p>
             </div>
           ))}
-          <div className="hidden md:flex items-center justify-center text-yellow-strong text-4xl font-black">
+          <div className="hidden items-center justify-center text-4xl font-black text-yellow-strong md:flex">
             ➜
           </div>
-          <div className="md:hidden flex items-center justify-center text-yellow-strong text-4xl font-black rotate-90 py-2">
+          <div className="flex rotate-90 items-center justify-center py-2 text-4xl font-black text-yellow-strong md:hidden">
             ➜
           </div>
-          <div className="flex items-center justify-center text-center font-extrabold text-2xl text-yellow-strong leading-[1.4] tracking-tight p-6">
+          <div className="flex items-center justify-center rounded-2xl border border-[#F7D981] bg-yellow px-6 py-7 text-center text-2xl font-extrabold leading-[1.35] tracking-tight text-yellow-strong shadow-card-sm">
             <div>
               여기서
               <br />
