@@ -61,6 +61,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -70,6 +71,7 @@ body {
   line-height: 1.65;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 ::selection {
@@ -86,6 +88,13 @@ button { font-family: inherit; cursor: pointer; border: none; }
   max-width: 1180px;
   margin: 0 auto;
   padding: 0 28px;
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .wrap {
+    padding: 0 24px;
+  }
 }
 
 /* ===== 우측 떠 있는 전화 ===== */

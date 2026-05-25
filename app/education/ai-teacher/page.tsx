@@ -1,3 +1,4 @@
+import Link from "next/link";
 import AITeacherClient from "./AITeacherClient";
 
 export const metadata = {
@@ -9,22 +10,23 @@ export const metadata = {
 export default function AITeacherPage() {
   return (
     <main className="min-h-screen bg-bg">
-      <div className="wrap py-10">
-        <a
+      <div className="wrap py-8 md:py-10">
+        <Link
           href="/"
           className="inline-block text-text-light text-sm font-semibold hover:text-red mb-8"
         >
           ← 메인으로 돌아가기
-        </a>
+        </Link>
         <header className="text-center mb-10">
           <span className="inline-block bg-navy text-white px-4 py-[6px] rounded-md text-xs font-extrabold tracking-wider mb-4">
             ★ AI 선생님 파일럿 v1
           </span>
-          <h1 className="font-black text-3xl md:text-[40px] text-text leading-[1.2] tracking-tight mb-4">
-            🗣️ 12인용 교육용 AI 선생님 🤖
+          <h1 className="text-[28px] font-black leading-[1.2] tracking-tight text-text md:text-[40px]">
+            12인용 교육용
+            <br className="sm:hidden" /> AI 선생님
           </h1>
-          <p className="text-text-mute text-base leading-[1.75] max-w-2xl mx-auto">
-            마이크에 말씀하시거나 직접 입력 후 초록 버튼을 눌러주세요.
+          <p className="mx-auto max-w-2xl text-base leading-[1.75] text-text-mute">
+            마이크에 말씀하시거나 직접 입력해 주세요.
             <br />
             AI 선생님이 어르신 눈높이로 쉽게 답해드립니다.
           </p>

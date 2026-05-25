@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Proof() {
   return (
     <section className="py-20">
@@ -6,6 +8,16 @@ export default function Proof() {
         <div>
           <div className="text-center mb-6">
             <h3 className="font-extrabold text-[22px] text-text tracking-tight">실제 수강생 이야기</h3>
+          </div>
+          <div className="relative mb-4 aspect-[16/10] overflow-hidden rounded-2xl border border-line bg-white shadow-card-sm">
+            <Image
+              src="/images/generated/student-story-card.png"
+              alt="스마트폰 수업을 마친 수강생 이야기 카드뉴스"
+              fill
+              loading="eager"
+              sizes="(max-width: 1024px) 100vw, 58vw"
+              className="object-cover"
+            />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Steps() {
   const steps = [
     { ribbon: "STEP 01", color: "bg-green", face: "📱", title: "스마트폰 기초반", desc: "전원 켜기부터\n카카오톡·카메라까지" },
@@ -13,9 +15,20 @@ export default function Steps() {
           <div className="text-text-light font-semibold text-sm tracking-wider mb-[10px]">
             배우고 끝이 아닙니다
           </div>
-          <h2 className="font-extrabold text-3xl text-text tracking-tight">
-            일상 자립 <span className="text-yellow-strong">+</span> 실제 수익까지 연결합니다
+          <h2 className="text-[27px] font-extrabold leading-[1.3] tracking-tight text-text md:text-3xl">
+            일상 자립 <span className="text-yellow-strong">+</span>
+            <br className="sm:hidden" /> 실제 수익까지 연결합니다
           </h2>
+        </div>
+        <div className="mb-8 min-w-0 overflow-hidden rounded-2xl border border-line bg-white shadow-card-md">
+          <Image
+            src="/images/generated/education-roadmap-card.png"
+            alt="스마트폰 기초부터 수익 창출까지 이어지는 4단계 교육 로드맵"
+            width={2048}
+            height={1280}
+            sizes="(max-width: 768px) 100vw, 1180px"
+            className="h-auto w-full"
+          />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[14px]">
           {steps.map((s, i) => (

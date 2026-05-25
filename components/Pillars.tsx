@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 export default function Pillars() {
   const items = [
     {
       tag: "01",
       tagBg: "bg-[#92400E]",
-      thumbGrad: "from-[#FED7AA] to-[#FBBF24]",
-      thumb: "🍱",
+      image: "/images/generated/foodbank-sharing-card.png",
+      alt: "푸드뱅크 나눔 카드뉴스",
       title: "푸드뱅크",
       desc: "지역 협력 네트워크 기반 정기적인 식품 나눔 사업.",
       stat: (
@@ -17,8 +19,8 @@ export default function Pillars() {
     {
       tag: "02",
       tagBg: "bg-[#1E40AF]",
-      thumbGrad: "from-[#BFDBFE] to-[#3B82F6]",
-      thumb: "🏫",
+      image: "/images/generated/space-sharing-card.png",
+      alt: "공간 공유 카드뉴스",
       title: "공간 공유",
       desc: "14평 공간을 작은 모임, 교육 프로그램에 무료로 개방합니다.",
       stat: (
@@ -32,8 +34,8 @@ export default function Pillars() {
     {
       tag: "03",
       tagBg: "bg-[#4338CA]",
-      thumbGrad: "from-[#C7D2FE] to-[#6366F1]",
-      thumb: "📰",
+      image: "/images/generated/citizen-journalist-card.png",
+      alt: "시민기자단 카드뉴스",
       title: "시민기자단",
       desc: "경인블루저널과 연계한 시민기자단 활동.",
       stat: (
@@ -55,8 +57,15 @@ export default function Pillars() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {items.map((p, i) => (
             <a key={i} href="#" className="group bg-white border border-line rounded-[20px] overflow-hidden hover:-translate-y-[6px] hover:shadow-card-lg transition-all">
-              <div className={`aspect-[16/10] relative overflow-hidden flex items-center justify-center text-[56px] bg-gradient-to-br ${p.thumbGrad}`}>
-                {p.thumb}
+              <div className="relative aspect-[16/10] overflow-hidden bg-bg-soft">
+                <Image
+                  src={p.image}
+                  alt={p.alt}
+                  fill
+                  loading="eager"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  className="object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                />
               </div>
               <div className="p-6 pb-7">
                 <span className={`inline-block text-white font-extrabold text-[11.5px] px-[10px] py-[3px] rounded-md tracking-wider mb-[10px] ${p.tagBg}`}>

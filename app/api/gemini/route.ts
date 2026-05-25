@@ -2,8 +2,10 @@ import { NextRequest, NextResponse } from "next/server";
 
 export const runtime = "nodejs";
 
-const GEMINI_API_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
+// Gemini 모델 — 2026-05 시점 gemini-1.5-flash는 deprecated, 2.0/2.5 계열 사용
+// 환경변수 GEMINI_MODEL 로 오버라이드 가능 (예: gemini-2.5-flash, gemini-2.0-flash)
+const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.0-flash";
+const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
 export async function POST(req: NextRequest) {
   try {
@@ -38,7 +40,11 @@ export async function POST(req: NextRequest) {
       const errText = await upstream.text().catch(() => "");
       console.error("Gemini upstream error:", upstream.status, errText);
       return NextResponse.json(
-        { error: `Gemini API 요청 실패 (${upstream.status})` },
+        {
+          error: `Gemini API 요청 실패 (${upstream.status})`,
+          model: GEMINI_MODEL,
+          detail: errText.slice(0, 500),
+        },
         { status: 502 }
       );
     }

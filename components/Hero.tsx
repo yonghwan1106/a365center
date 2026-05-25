@@ -1,12 +1,14 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
-    <section className="py-[60px] pb-20">
+    <section className="py-12 pb-16 md:py-[60px] md:pb-20">
       <div className="wrap grid grid-cols-1 md:grid-cols-[1.05fr_0.95fr] gap-12 items-center">
-        <div>
+        <div className="min-w-0">
           <span className="inline-block bg-yellow text-[#92400E] font-bold text-sm px-4 py-[7px] rounded-md mb-6 tracking-tight">
             메디스타워 213호 작은 공간에서 시작된 큰 기적
           </span>
-          <h1 className="font-black text-[34px] md:text-[50px] leading-[1.2] tracking-tighter text-text mb-6">
+          <h1 className="break-keep text-[34px] font-black leading-[1.2] tracking-tight text-text md:text-[50px]">
             <span className="text-red">스마트폰 못하셔도 됩니다</span>
             <br />
             지금부터 배우고,
@@ -21,52 +23,49 @@ export default function Hero() {
           <div className="flex gap-3 mb-6 flex-wrap">
             <a
               href="tel:010-9867-3121"
-              className="inline-flex items-center gap-2 px-7 py-4 rounded-xl font-extrabold text-base bg-red text-white shadow-[0_8px_22px_rgba(229,57,53,0.28)] hover:bg-red-dark hover:-translate-y-[2px] transition-all"
+              className="inline-flex items-center gap-2 rounded-xl bg-red px-6 py-4 text-base font-extrabold text-white shadow-[0_8px_22px_rgba(229,57,53,0.28)] transition-all hover:-translate-y-[2px] hover:bg-red-dark sm:px-7"
             >
-              📞 지금 전화 상담
+              ☎ 지금 전화 상담
             </a>
             <a
               href="#education"
-              className="inline-flex items-center gap-2 px-7 py-4 rounded-xl font-extrabold text-base bg-navy text-white hover:bg-navy-deep hover:-translate-y-[2px] transition-all"
+              className="inline-flex items-center gap-2 rounded-xl bg-navy px-6 py-4 text-base font-extrabold text-white transition-all hover:-translate-y-[2px] hover:bg-navy-deep sm:px-7"
             >
               📝 무료 수업 신청
             </a>
           </div>
-          <div className="flex items-center gap-[10px] px-5 py-[14px] bg-yellow rounded-xl text-sm text-[#7C2D12] font-semibold border-l-4 border-yellow-strong">
-            <span className="text-xl">👉</span>
+          <div className="flex items-start gap-[10px] rounded-xl border-l-4 border-yellow-strong bg-yellow px-5 py-[14px] text-sm font-semibold text-[#7C2D12]">
+            <span className="text-xl leading-none">☞</span>
             <span>
               <strong>5월 교육생 모집 중</strong> (선착순 10명) · 창소반 곧 마감입니다.
             </span>
           </div>
         </div>
         <div className="relative">
-          <div
-            className="aspect-[1.2/1] rounded-3xl overflow-hidden relative flex items-center justify-center shadow-[0_24px_48px_rgba(31,41,55,0.18)]"
-            style={{
-              background:
-                "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.5) 0%, transparent 50%), linear-gradient(135deg, #E8C99B 0%, #C9A678 60%, #8E7050 100%)",
-            }}
-          >
-            <div className="text-center text-[64px] md:text-[96px] leading-[1.05] tracking-widest drop-shadow-md">
-              👨🏻‍🦳👵🏻📱
-              <br />
-              👴🏻📱👵🏼
-            </div>
-            <div className="absolute bottom-[18px] left-1/2 -translate-x-1/2 bg-white/90 px-4 py-2 rounded-full text-xs font-bold text-text whitespace-nowrap shadow-card-sm">
-              📷 메디스타워 213호 · 실제 교육 현장 (실사 교체 예정)
+          <div className="relative aspect-[16/11] overflow-hidden rounded-2xl shadow-[0_24px_48px_rgba(31,41,55,0.16)] md:rounded-3xl">
+            <Image
+              src="/images/generated/hero-senior-smartphone-class.png"
+              alt="어르신들이 강사와 함께 스마트폰을 배우는 교육 현장"
+              fill
+              priority
+              sizes="(max-width: 768px) 100vw, 46vw"
+              className="object-cover"
+            />
+            <div className="absolute bottom-4 left-4 right-4 rounded-full bg-white/92 px-4 py-2 text-center text-xs font-bold text-text shadow-card-sm backdrop-blur">
+              메디스타워 213호 · 어르신 디지털 교육 현장
             </div>
           </div>
-          <div className="md:absolute md:-bottom-8 md:-right-3 mt-4 md:mt-0 bg-white rounded-2xl px-[22px] py-[18px] shadow-card-lg flex gap-[18px]">
+          <div className="mt-4 grid grid-cols-1 gap-2 rounded-2xl bg-white px-4 py-4 shadow-card-lg sm:grid-cols-3 md:absolute md:-bottom-8 md:-right-3 md:mt-0 md:flex md:gap-[18px] md:px-[22px] md:py-[18px]">
             {[
               { ic: "🚇", label: "동백역 도보\n5분", bg: "bg-yellow", color: "text-[#92400E]" },
               { ic: "🏠", label: "213호 실제\n교육 현장", bg: "bg-[#DBEAFE]", color: "text-[#1E40AF]" },
               { ic: "💼", label: "수강 후\n일자리 연계", bg: "bg-[#D1FAE5]", color: "text-[#065F46]" },
             ].map((it, i) => (
-              <div key={i} className="flex flex-col items-center gap-2 text-center min-w-[90px]">
-                <div className={`w-11 h-11 rounded-full flex items-center justify-center text-[22px] ${it.bg} ${it.color}`}>
+              <div key={i} className="flex min-w-0 flex-row items-center justify-center gap-3 text-center sm:flex-col sm:gap-2 md:min-w-[90px]">
+                <div className={`h-10 w-10 rounded-full flex items-center justify-center text-[20px] sm:h-11 sm:w-11 sm:text-[22px] ${it.bg} ${it.color}`}>
                   {it.ic}
                 </div>
-                <div className="text-[12.5px] font-bold text-text leading-[1.4] whitespace-pre-line">
+                <div className="whitespace-pre-line text-[12px] font-bold leading-[1.4] text-text sm:text-[12.5px]">
                   {it.label}
                 </div>
               </div>

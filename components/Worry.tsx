@@ -2,7 +2,7 @@ export default function Worry() {
   return (
     <section className="pt-20 pb-[60px]">
       <div className="wrap">
-        <h2 className="text-center font-extrabold text-3xl text-text mb-12 tracking-tight">
+        <h2 className="mb-12 text-center text-[28px] font-extrabold leading-[1.25] tracking-tight text-text md:text-3xl">
           혹시 이런 고민 있으신가요?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-[repeat(3,1fr)_auto_1fr] gap-5 items-stretch">
