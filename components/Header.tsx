@@ -22,18 +22,19 @@ export default function Header() {
           </div>
         </a>
         <nav className="hidden lg:block">
-          <ul className="flex list-none gap-5 xl:gap-7">
+          <ul className="flex list-none gap-4 xl:gap-6">
             {[
-              { href: "/about", label: "센터소개" },
+              { href: "/about", label: "소개" },
               { href: "/education", label: "디지털 교육" },
               { href: "/education/ai-teacher", label: "AI 선생님" },
+              { href: "/certificate", label: "자격과정" },
               { href: "/pillars", label: "나눔 사역" },
-              { href: "/foodbank", label: "푸드뱅크" },
               { href: "/citizen-journalist", label: "시민기자단" },
+              { href: "/support", label: "참여·후원" },
               { href: "/contact", label: "오시는 길" },
             ].map((item, i) => (
               <li key={i}>
-                <a href={item.href} className="py-2 text-[14px] font-bold text-text transition-colors hover:text-red xl:text-[15px]">
+                <a href={item.href} className="py-2 text-[13.5px] font-bold text-text transition-colors hover:text-red xl:text-[14.5px]">
                   {item.label}
                 </a>
               </li>

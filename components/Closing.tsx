@@ -1,70 +1,75 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Closing() {
   return (
-    <section id="contact" className="scroll-mt-24 pt-10 pb-14 md:pt-12 md:pb-16">
+    <section id="cta" className="bg-bg py-14 md:py-16">
       <div className="wrap">
-        <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-3">
-          {/* 대표 인사말 */}
-          <div className="flex flex-col rounded-2xl border border-line bg-white p-7 shadow-card-sm lg:p-8">
-            <div className="flex gap-[14px] items-center mb-[18px]">
-              <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#94A3B8] to-[#475569] text-[26px] font-extrabold text-white shadow-card-md lg:h-20 lg:w-20 lg:text-[30px]">
-                김
-              </div>
-              <div className="min-w-0">
-                <div className="text-[12.5px] font-semibold leading-[1.45] text-text-light lg:text-[13px]">우리함께 평생교육·나눔센터</div>
-                <div className="text-lg font-extrabold tracking-tight text-text lg:text-xl">센터장 · 김재완</div>
-              </div>
-            </div>
-            <p className="break-words rounded-xl border-l-[3px] border-yellow-strong bg-bg-soft px-5 py-4 text-sm leading-[1.85] text-text-mute">
-              “메디스타워 213호 작은 공간이 어르신들의 인생을 다시 시작할 수 있는 새로운 출발점이 되길 진심으로 응원합니다.”
-            </p>
-          </div>
+        <div className="mx-auto mb-8 max-w-3xl text-center">
+          <div className="mb-2 text-sm font-extrabold tracking-wide text-yellow-strong">함께해 주세요</div>
+          <h2 className="break-keep text-[28px] font-extrabold leading-[1.25] tracking-tight text-text md:text-3xl">
+            전화 한 통, 작은 후원, 따뜻한 손길이 큰 변화를 만듭니다
+          </h2>
+        </div>
 
-          {/* 전화 */}
-          <div className="flex flex-col items-center rounded-2xl border border-[#F7D981] bg-gradient-to-b from-[#FEF3C7] to-[#FFFBEB] p-7 text-center shadow-card-sm lg:p-8">
-            <div className="font-bold text-[#92400E] text-sm mb-[10px]">전화 한 통이면 됩니다.</div>
-            <h4 className="mb-3 flex max-w-full flex-wrap items-center justify-center gap-2 break-all text-[29px] font-extrabold tracking-tight text-text lg:text-[34px]">
-              <span className="text-[30px] text-red">📞</span>010-9867-3121
-            </h4>
-            <div className="mb-6 text-[13.5px] leading-[1.7] text-text-mute">
-              따뜻한 환영
-              <br />
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
+          {/* 전화 (가장 큰 강조) */}
+          <div className="flex flex-col items-center rounded-2xl border-2 border-red bg-gradient-to-b from-[#FEF3C7] to-[#FFFBEB] p-7 text-center shadow-card-md md:p-8">
+            <div className="mb-2 text-sm font-extrabold text-red">📞 전화 상담</div>
+            <div className="my-2 text-[32px] font-black tracking-tight text-text md:text-[36px]">
+              010-9867-3121
+            </div>
+            <div className="mb-5 text-[13.5px] leading-[1.7] text-text-mute">
               어르신·장애인·교회 사역자 모두 환영합니다.
+              <br />언제든 편하게 연락 주세요.
             </div>
             <a
               href="tel:010-9867-3121"
-              className="bg-red text-white px-8 py-[14px] rounded-full font-extrabold text-[15px] shadow-[0_8px_20px_rgba(229,57,53,0.30)] hover:bg-red-dark hover:-translate-y-[2px] transition-all"
+              className="inline-flex items-center justify-center rounded-full bg-red px-8 py-[14px] text-[15px] font-extrabold text-white shadow-[0_8px_20px_rgba(229,57,53,0.30)] transition-all hover:-translate-y-px hover:bg-red-dark"
             >
               지금 전화하기
             </a>
           </div>
 
-          {/* 오시는 길 */}
-          <div className="flex flex-col rounded-2xl border border-line bg-white p-7 shadow-card-sm lg:p-8">
-            <h4 className="mb-[10px] flex items-center gap-[6px] text-sm font-bold text-text-mute">🗺️ 오시는 길</h4>
-            <div className="mb-[14px] text-base font-extrabold leading-[1.55] tracking-tight text-text">
-              경기도 용인특례시 기흥구 동백죽전대로 341, 213호
+          {/* 후원 */}
+          <div className="flex flex-col items-center rounded-2xl border border-line bg-white p-7 text-center shadow-card-sm md:p-8">
+            <div className="mb-2 text-sm font-extrabold text-yellow-strong">💛 후원</div>
+            <div className="my-2 text-xl font-extrabold tracking-tight text-text md:text-[22px]">
+              법인 후원 계좌
             </div>
-            <div
-              className="relative mb-[14px] min-h-[150px] flex-1 overflow-hidden rounded-xl border border-[#CFE1D1] bg-[#EEF8EF]"
+            <div className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-yellow px-3 py-1 text-[12.5px] font-extrabold text-[#92400E]">
+              🚧 계좌 개설 중
+            </div>
+            <div className="mb-5 text-[13.5px] leading-[1.7] text-text-mute">
+              법인 통장 개설 행정 절차 완료 후 별도 공지드립니다.
+              <br />문의는 전화·이메일로 부탁드립니다.
+            </div>
+            <Link
+              href="/support/donate"
+              className="inline-flex items-center justify-center rounded-full bg-navy-deep px-6 py-[13px] text-[14px] font-extrabold text-white transition-all hover:-translate-y-px hover:bg-navy"
             >
-              <Image
-                src="/images/generated/access-map-card.png"
-                alt="동백역 1번 출구에서 메디스타워 213호까지 도보 5분 안내 지도"
-                fill
-                sizes="(max-width: 768px) 100vw, 32vw"
-                className="object-cover"
-              />
+              후원 안내 보기
+            </Link>
+          </div>
+
+          {/* 자원봉사 */}
+          <div className="flex flex-col items-center rounded-2xl border border-line bg-white p-7 text-center shadow-card-sm md:p-8">
+            <div className="mb-2 text-sm font-extrabold text-green">🤝 자원봉사</div>
+            <div className="my-2 text-xl font-extrabold tracking-tight text-text md:text-[22px]">
+              함께 일할 분을 찾습니다
             </div>
-            <div className="text-[13.5px] text-text-mute leading-[1.8]">
-              <b className="text-text font-bold">🚇 동백역</b> 1번 출구 도보 5분
-              <br />
-              <b className="text-text font-bold">🚗 무료 주차</b> · 휠체어·유모차 접근 가능
+            <div className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-[#D1FAE5] px-3 py-1 text-[12.5px] font-extrabold text-[#065F46]">
+              ✅ 상시 모집
             </div>
-            <a href="/contact" className="mt-[14px] self-start text-text font-bold text-[13px] border-b border-text pb-[2px]">
-              지도 보기 →
-            </a>
+            <div className="mb-5 text-[13.5px] leading-[1.7] text-text-mute">
+              디지털 교육 보조, 푸드뱅크 분류·배달, 시민기자단 취재
+              <br />등 다양한 영역에서 참여 가능합니다.
+            </div>
+            <Link
+              href="/support/volunteer"
+              className="inline-flex items-center justify-center rounded-full bg-green px-6 py-[13px] text-[14px] font-extrabold text-white transition-all hover:-translate-y-px hover:opacity-90"
+            >
+              봉사 신청하기
+            </Link>
           </div>
         </div>
       </div>
