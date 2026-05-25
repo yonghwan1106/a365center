@@ -32,6 +32,11 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.local.example
+
+# 보안: API 키 포함 파일 절대 커밋 금지
+*.bak
+*_원본_키포함_*
 
 # vercel
 .vercel
