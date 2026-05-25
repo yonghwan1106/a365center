@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-[rgba(251,245,235,0.94)] backdrop-blur-md border-b border-line">
       <div className="wrap flex items-center justify-between min-h-[72px] gap-3 py-3 lg:h-[74px] lg:gap-5 lg:py-0">
-        <div className="flex min-w-0 items-center gap-3">
+        <a href="/" aria-label="우리함께 평생교육·나눔센터 홈" className="flex min-w-0 items-center gap-3 transition-opacity hover:opacity-80">
           <div className="relative h-11 w-11 flex-shrink-0 md:h-12 md:w-12">
             <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
               <g transform="translate(24 24)">
@@ -20,7 +20,7 @@ export default function Header() {
             <span className="truncate text-[15px] font-extrabold tracking-tight text-text sm:text-[17px]">우리함께 평생교육·나눔센터</span>
             <span className="mt-px truncate text-[10.5px] tracking-wide text-text-light sm:text-[11px]">경인장애인선교회 · 경인 공익네트워크</span>
           </div>
-        </div>
+        </a>
         <nav className="hidden lg:block">
           <ul className="flex list-none gap-5 xl:gap-7">
             {[
