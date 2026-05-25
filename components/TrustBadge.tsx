@@ -21,7 +21,7 @@ export default function TrustBadge() {
           <div className="relative overflow-hidden rounded-2xl border border-line bg-white p-3 shadow-card-md">
             <div className="relative aspect-[3/4] overflow-hidden rounded-xl bg-bg-soft">
               <Image
-                src="/images/legal/certificate.jpg"
+                src="/images/legal/certificate.png"
                 alt="경인장애인선교회 고유번호증"
                 fill
                 sizes="(max-width: 1024px) 100vw, 55vw"

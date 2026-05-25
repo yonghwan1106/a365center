@@ -36,7 +36,7 @@ export default function CertificatePage() {
             <div className="overflow-hidden rounded-3xl border-2 border-line bg-white p-4 shadow-card-lg md:p-6">
               <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-bg-soft">
                 <Image
-                  src="/images/legal/certificate.jpg"
+                  src="/images/legal/certificate.png"
                   alt="경인장애인선교회 고유번호증 원본"
                   fill
                   priority
