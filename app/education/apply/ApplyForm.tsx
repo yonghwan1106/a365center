@@ -45,7 +45,7 @@ export default function ApplyForm() {
       "— 본 신청서는 a365center.or.kr/education/apply 에서 작성되었습니다.",
     ].join("\n");
 
-    const mailto = `mailto:admin@a365center.or.kr?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailto = `mailto:a365center@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailto;
   }
 
@@ -142,7 +142,7 @@ export default function ApplyForm() {
 
       <div className="mt-6 rounded-xl bg-bg-soft p-4 text-xs leading-[1.7] text-text-mute">
         ⓘ <strong className="text-text">개인정보 처리 안내</strong> — 입력하신 정보는 본 신청 처리 외 용도로 사용되지 않으며,
-        접수 완료 후 60일 이내 파기됩니다. 접수처: admin@a365center.or.kr · 010-9867-3121
+        접수 완료 후 60일 이내 파기됩니다. 접수처: a365center@gmail.com · 010-9867-3121
       </div>
 
       <div className="mt-7 flex flex-col gap-3 md:flex-row">

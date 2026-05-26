@@ -17,7 +17,7 @@ export default function DonatePage() {
         image="/images/generated/donate-card.png"
         imageAlt="후원 안내 이미지 — 법인 계좌 개설 중"
         actions={[
-          { href: "mailto:admin@a365center.or.kr?subject=%5B%ED%9B%84%EC%9B%90%20%EA%B4%80%EC%8B%AC%20%EB%93%B1%EB%A1%9D%5D&body=%EC%9D%B4%EB%A6%84%3A%0A%EC%97%B0%EB%9D%BD%EC%B2%98%3A%0A%ED%9B%84%EC%9B%90%20%EC%9C%A0%ED%98%95(%EC%9D%BC%EC%8B%9C%2F%EC%A0%95%EA%B8%B0)%3A%0A%EB%A9%94%EB%AA%A8%3A", label: "✉ 후원 관심 등록" },
+          { href: "mailto:a365center@gmail.com?subject=%5B%ED%9B%84%EC%9B%90%20%EA%B4%80%EC%8B%AC%20%EB%93%B1%EB%A1%9D%5D&body=%EC%9D%B4%EB%A6%84%3A%0A%EC%97%B0%EB%9D%BD%EC%B2%98%3A%0A%ED%9B%84%EC%9B%90%20%EC%9C%A0%ED%98%95(%EC%9D%BC%EC%8B%9C%2F%EC%A0%95%EA%B8%B0)%3A%0A%EB%A9%94%EB%AA%A8%3A", label: "✉ 후원 관심 등록" },
           { href: "tel:010-9867-3121", label: "📞 대표 직통", tone: "navy" },
         ]}
       />
@@ -38,7 +38,7 @@ export default function DonatePage() {
             </p>
             <div className="mt-6 grid grid-cols-1 gap-3 md:grid-cols-2">
               <a
-                href="mailto:admin@a365center.or.kr?subject=%5B%ED%9B%84%EC%9B%90%20%EA%B4%80%EC%8B%AC%20%EB%93%B1%EB%A1%9D%5D"
+                href="mailto:a365center@gmail.com?subject=%5B%ED%9B%84%EC%9B%90%20%EA%B4%80%EC%8B%AC%20%EB%93%B1%EB%A1%9D%5D"
                 className="inline-flex items-center justify-center rounded-xl bg-red px-6 py-4 text-base font-extrabold text-white shadow-card-md transition-all hover:-translate-y-px hover:bg-red-dark"
               >
                 ✉ 이메일로 관심 등록

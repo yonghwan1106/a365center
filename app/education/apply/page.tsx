@@ -4,7 +4,7 @@ import ApplyForm from "./ApplyForm";
 
 export const metadata = {
   title: "온라인 신청서 — 디지털 교육 등록",
-  description: "우리함께 평생교육·나눔센터 디지털 교육 온라인 신청서. 접수: admin@a365center.or.kr · 전화 010-9867-3121.",
+  description: "우리함께 평생교육·나눔센터 디지털 교육 온라인 신청서. 접수: a365center@gmail.com · 전화 010-9867-3121.",
 };
 
 export default function ApplyPage() {
@@ -29,7 +29,7 @@ export default function ApplyPage() {
             <SectionHeader
               eyebrow="신청서"
               title="아래 정보를 입력해 주세요"
-              description="필수 항목만 채워주시면 됩니다. 접수처: admin@a365center.or.kr"
+              description="필수 항목만 채워주시면 됩니다. 접수처: a365center@gmail.com"
             />
             <ApplyForm />
           </div>

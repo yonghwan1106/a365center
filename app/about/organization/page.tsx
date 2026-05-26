@@ -74,7 +74,7 @@ export default function OrganizationPage() {
         <div className="wrap">
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
             <InfoCard icon="📞" title="대표 직통 연락처">
-              010-9867-3121 · admin@a365center.or.kr<br />
+              010-9867-3121 · a365center@gmail.com<br />
               공모·기사·후원 문의는 대표가 직접 응대합니다.
             </InfoCard>
             <InfoCard icon="🏛️" title="감사·자문">

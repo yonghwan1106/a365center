@@ -26,7 +26,7 @@ export default function SponsorPage() {
         image="/images/generated/sponsor-card.png"
         imageAlt="기업·기관 협력 안내 이미지"
         actions={[
-          { href: "mailto:admin@a365center.or.kr?subject=%5B%EA%B8%B0%EC%97%85%C2%B7%EA%B8%B0%EA%B4%80%20%ED%98%91%EB%A0%A5%20%EC%A0%9C%EC%95%88%5D&body=%EA%B8%B0%EA%B4%80%EB%AA%85%3A%0A%EB%8B%B4%EB%8B%B9%EC%9E%90%3A%0A%EC%97%B0%EB%9D%BD%EC%B2%98%3A%0A%ED%98%91%EB%A0%A5%20%EC%A0%9C%EC%95%88%20%EC%9C%A0%ED%98%95%3A%0A%EC%A0%9C%EC%95%88%20%EB%82%B4%EC%9A%A9%3A", label: "✉ 협력 제안서 보내기" },
+          { href: "mailto:a365center@gmail.com?subject=%5B%EA%B8%B0%EC%97%85%C2%B7%EA%B8%B0%EA%B4%80%20%ED%98%91%EB%A0%A5%20%EC%A0%9C%EC%95%88%5D&body=%EA%B8%B0%EA%B4%80%EB%AA%85%3A%0A%EB%8B%B4%EB%8B%B9%EC%9E%90%3A%0A%EC%97%B0%EB%9D%BD%EC%B2%98%3A%0A%ED%98%91%EB%A0%A5%20%EC%A0%9C%EC%95%88%20%EC%9C%A0%ED%98%95%3A%0A%EC%A0%9C%EC%95%88%20%EB%82%B4%EC%9A%A9%3A", label: "✉ 협력 제안서 보내기" },
           { href: "/about/documents", label: "법인 서류 보기", tone: "navy" },
         ]}
       />

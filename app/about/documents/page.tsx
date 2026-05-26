@@ -78,7 +78,7 @@ export default function DocumentsPage() {
 
           <div className="rounded-xl border border-yellow-strong/40 bg-yellow/60 p-5 text-[14px] leading-[1.75] text-[#7C2D12]">
             💡 PDF 파일은 원본 hwpx/docx에서 변환 작업 중입니다. 즉시 필요한 자료가 있으시면
-            <a href="mailto:admin@a365center.or.kr" className="ml-1 font-extrabold underline">admin@a365center.or.kr</a>로 요청해 주시면
+            <a href="mailto:a365center@gmail.com" className="ml-1 font-extrabold underline">a365center@gmail.com</a>로 요청해 주시면
             대표가 직접 송부드립니다.
           </div>
         </div>

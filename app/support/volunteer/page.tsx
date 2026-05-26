@@ -26,7 +26,7 @@ export default function VolunteerPage() {
         image="/images/generated/volunteer-card.png"
         imageAlt="자원봉사 모집 안내 이미지"
         actions={[
-          { href: "mailto:admin@a365center.or.kr?subject=%5B%EC%9E%90%EC%9B%90%EB%B4%89%EC%82%AC%20%EC%8B%A0%EC%B2%AD%5D&body=%EC%9D%B4%EB%A6%84%3A%0A%EC%97%B0%EB%9D%BD%EC%B2%98%3A%0A%ED%9D%AC%EB%A7%9D%20%EC%98%81%EC%97%AD%3A%0A%EA%B0%80%EB%8A%A5%20%EC%8B%9C%EA%B0%84%EB%8C%80%3A%0A%EA%B0%95%EC%A0%90%2F%EA%B2%BD%ED%97%98%3A", label: "✉ 봉사 신청서 보내기" },
+          { href: "mailto:a365center@gmail.com?subject=%5B%EC%9E%90%EC%9B%90%EB%B4%89%EC%82%AC%20%EC%8B%A0%EC%B2%AD%5D&body=%EC%9D%B4%EB%A6%84%3A%0A%EC%97%B0%EB%9D%BD%EC%B2%98%3A%0A%ED%9D%AC%EB%A7%9D%20%EC%98%81%EC%97%AD%3A%0A%EA%B0%80%EB%8A%A5%20%EC%8B%9C%EA%B0%84%EB%8C%80%3A%0A%EA%B0%95%EC%A0%90%2F%EA%B2%BD%ED%97%98%3A", label: "✉ 봉사 신청서 보내기" },
           { href: "tel:010-9867-3121", label: "📞 전화 문의", tone: "navy" },
         ]}
       />

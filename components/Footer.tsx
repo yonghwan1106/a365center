@@ -71,7 +71,7 @@ export default function Footer() {
             <ul className="list-none space-y-2 text-[13px] leading-[1.7]">
               <li>📍 경기도 용인특례시 기흥구<br />동백죽전대로 341, 213호<br />(메디스타워)</li>
               <li>☎ 010-9867-3121<br />· 010-7708-7006</li>
-              <li>✉ admin@a365center.or.kr</li>
+              <li>✉ a365center@gmail.com</li>
               <li>🌐 a365center.or.kr</li>
             </ul>
             <div className="mt-4 flex flex-col gap-2">
