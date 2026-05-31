@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "질문이 너무 깁니다 (최대 2000자)." }, { status: 400 });
     }
 
-    const prompt = `${question}\n\n** 교육용 AI 선생님으로서 아주 쉽고 크고 간단한 한국어로 답변해주세요. 어르신들이 이해하기 쉽게 해주세요.**`;
+    const prompt = `${question}\n\n** 교육용 OST 똑똑이 선생님으로서 아주 쉽고 크고 간단한 한국어로 답변해주세요. 어르신들이 이해하기 쉽게 해주세요.**`;
 
     const upstream = await fetch(`${GEMINI_API_URL}?key=${apiKey}`, {
       method: "POST",

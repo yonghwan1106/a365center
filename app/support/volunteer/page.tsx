@@ -3,12 +3,12 @@ import { CTASection, InfoCard, SectionHeader, SubpageHero } from "@/components/S
 
 export const metadata = {
   title: "자원봉사 신청 — 함께 일할 분을 찾습니다",
-  description: "디지털 교육 보조, 푸드뱅크 분류·배달, 시민기자단 취재, AI 선생님 보조 등 다양한 자원봉사 영역. 상시 모집.",
+  description: "디지털 교육 보조, 푸드뱅크 분류·배달, 시민기자단 취재, OST 똑똑이 선생님 보조 등 다양한 자원봉사 영역. 상시 모집.",
 };
 
 const ROLES = [
   { icon: "📱", title: "디지털 교육 보조", time: "주 1~2회, 2시간", desc: "어르신 1:1 보조 강사. 스마트폰 기초·생활 활용반에서 학생 옆자리 보조." },
-  { icon: "🤖", title: "AI 선생님 보조", time: "주 1회, 2시간", desc: "12인 교실에서 음성 인식 결과 검토·오답 보고. IT 기초만 있으면 OK." },
+  { icon: "🤖", title: "OST 똑똑이 선생님 보조", time: "주 1회, 2시간", desc: "12인 교실에서 음성 인식 결과 검토·오답 보고. IT 기초만 있으면 OK." },
   { icon: "🥫", title: "푸드뱅크 분류·배달", time: "주 1~2회, 3시간", desc: "수거된 식품 분류·포장·배달. 차량 없어도 가능 (배달 동행 보조 가능)." },
   { icon: "📰", title: "시민기자단 취재", time: "월 1~2회, 자율", desc: "지역 기록·기관 취재·기사 작성. 카메라·녹음기 지급. 글쓰기 기초 교육 제공." },
   { icon: "🎨", title: "교재·홍보물 제작", time: "재택 가능", desc: "큰 글씨 교재, 카드뉴스, SNS 콘텐츠 제작. 디자인 도구 사용 가능자 환영." },

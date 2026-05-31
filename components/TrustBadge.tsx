@@ -53,7 +53,7 @@ export default function TrustBadge() {
               <ul className="space-y-2 text-sm">
                 {[
                   ["경인AI디지털교육자격협회 정관", "/docs/경인AI디지털교육자격협회_정관.pdf"],
-                  ["민간자격 3종목 자격관리운영규정", "/docs/민간자격_3종목_운영규정.pdf"],
+                  ["민간자격 7종목 자격관리운영규정", "/docs/민간자격_7종목_운영규정.pdf"],
                   ["연합푸드뱅크 정관", "/docs/연합푸드뱅크_정관.pdf"],
                   ["연합푸드뱅크 공동운영 협약서", "/docs/연합푸드뱅크_공동운영_협약서.pdf"],
                   ["연합푸드뱅크 내부 운영규정", "/docs/연합푸드뱅크_내부_운영규정.pdf"],
@@ -80,7 +80,7 @@ export default function TrustBadge() {
               </Link>
             </div>
             <div className="rounded-xl border border-yellow-strong/40 bg-yellow/60 p-4 text-[13px] leading-[1.7] text-[#7C2D12]">
-              💡 과거 구글 등 외부 기관 심사 시 고유번호증 미노출로 반려된 경험을 바탕으로,
+              💡 과거 외부 기관 심사 시 고유번호증 미노출로 반려된 경험을 바탕으로,
               <strong> 우리 기관의 최우선 철학인 ‘투명성’</strong>에 따라 핵심 서류를 모두 공개합니다.
             </div>
           </div>

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "경인 공익네트워크",
     "어르신 디지털 교육",
     "스마트폰 교실",
-    "AI 선생님",
+    "OST 똑똑이 선생님",
     "용인 동백",
   ],
   openGraph: {

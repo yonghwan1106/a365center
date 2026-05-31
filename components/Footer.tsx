@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="relative bg-navy-deep pt-12 pb-8 text-[13.5px] text-white/75">
       <div className="wrap">
         <div className="mb-6 max-w-4xl text-xs leading-[1.7] text-white/55">
-          사단법인 경인교회 · 경인장애인선교회 부설 · 우리함께 평생교육·나눔센터 · 경인AI디지털교육자격협회 · 연합푸드뱅크 · 경인 평생교육·나눔 사회적협동조합 통합 운영
+          사단법인 예수교장로회 경인교회 · 경인장애인선교회 부설 · 우리함께 평생교육·나눔센터 · 경인AI디지털교육자격협회 · 연합푸드뱅크 · 경인 평생교육·나눔 사회적협동조합 통합 운영
         </div>
 
         <div className="mb-9 grid grid-cols-2 gap-7 md:grid-cols-4">
@@ -34,7 +34,7 @@ export default function Footer() {
               {[
                 ["/education", "디지털 교육"],
                 ["/education/curriculum", "4단계 커리큘럼"],
-                ["/education/ai-teacher", "AI 선생님 교실"],
+                ["/education/ai-teacher", "OST 똑똑이 선생님 교실"],
                 ["/education/apply", "온라인 신청"],
                 ["/certificate", "민간자격 (준비 중)"],
                 ["/foodbank", "연합푸드뱅크"],
@@ -71,8 +71,11 @@ export default function Footer() {
             <ul className="list-none space-y-2 text-[13px] leading-[1.7]">
               <li>📍 경기도 용인특례시 기흥구<br />동백죽전대로 341, 213호<br />(메디스타워)</li>
               <li>☎ 010-9867-3121<br />· 010-7708-7006</li>
-              <li>✉ a365center@gmail.com</li>
+              <li>✉ 일반문의 a365center@gmail.com</li>
+              <li>✉ 희망우체국 ost@a365.or.kr</li>
+              <li>✉ 민간자격 admin@a365.or.kr</li>
               <li>🌐 a365center.or.kr</li>
+              <li>🔗 <a href="https://a365.or.kr" target="_blank" rel="noopener" className="underline hover:text-white">경인교회 공식 a365.or.kr</a></li>
             </ul>
             <div className="mt-4 flex flex-col gap-2">
               <a href="/support/donate" className="inline-flex items-center justify-center rounded-md bg-yellow-strong/90 px-3 py-2 text-[12.5px] font-extrabold text-[#3F2700] hover:bg-yellow-strong">

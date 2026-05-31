@@ -3,13 +3,13 @@ import { CTASection, SectionHeader, SubpageHero } from "@/components/SubpageBloc
 
 export const metadata = {
   title: "연혁 — 6단계 타임라인",
-  description: "선교회 설립부터 민간자격 3종 신청까지, 경인장애인선교회·경인 공익네트워크의 6단계 발자취.",
+  description: "선교회 설립부터 민간자격 7종 신청까지, 경인장애인선교회·경인 공익네트워크의 6단계 발자취.",
 };
 
 const TIMELINE = [
   {
     step: "STEP 01",
-    title: "사단법인 경인교회·경인장애인선교회 설립",
+    title: "사단법인 예수교장로회 경인교회·경인장애인선교회 설립",
     body: "장애인·소외계층을 향한 신앙적 뿌리. 모든 사업의 시작점이 된 ‘큰 우산’ 단체의 출범.",
     color: "from-[#1F2937] to-[#0F172A]",
   },
@@ -39,7 +39,7 @@ const TIMELINE = [
   },
   {
     step: "STEP 06",
-    title: "민간자격 3종 등록 신청 (2026.06.01 예정)",
+    title: "민간자격 7종 등록 신청 (2026.06.01 예정)",
     body: "경인AI디지털교육자격협회를 통한 디지털 교육 전문성 제도화. 등록 완료 시 ‘준비 중’ 라벨 해제 예정.",
     color: "from-[#B91C1C] to-[#991B1B]",
   },

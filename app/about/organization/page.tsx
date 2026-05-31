@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 const TEAM = [
-  { role: "AI 교육 디렉터", avatar: "🤖", color: "from-[#FEE2E2] to-[#FECACA]", desc: "AI 선생님 12인 교실 운영" },
+  { role: "AI 교육 디렉터", avatar: "🤖", color: "from-[#FEE2E2] to-[#FECACA]", desc: "OST 똑똑이 선생님 12인 교실 운영" },
   { role: "디지털 강사", avatar: "📱", color: "from-[#DBEAFE] to-[#BFDBFE]", desc: "4단계 커리큘럼 진행" },
   { role: "푸드뱅크 매니저", avatar: "🥫", color: "from-[#D1FAE5] to-[#A7F3D0]", desc: "물품 수거·분류·배송" },
   { role: "협동조합 운영", avatar: "🤝", color: "from-[#FEF3C7] to-[#FDE68A]", desc: "사회적협동조합 사업 기획" },

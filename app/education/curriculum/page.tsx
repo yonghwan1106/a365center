@@ -29,7 +29,7 @@ const STEPS = [
     color: "bg-[#3B82F6]",
     title: "AI 실무반",
     accent: "말로 묻고 글로 정리",
-    desc: "AI 선생님에게 질문하기, 음성 입력 글쓰기, 생활 정보 검색·확인, 기사·홍보글 초안 만들기.",
+    desc: "OST 똑똑이 선생님에게 질문하기, 음성 입력 글쓰기, 생활 정보 검색·확인, 기사·홍보글 초안 만들기.",
     slug: "ai-practical",
   },
   {
@@ -54,7 +54,7 @@ export default function CurriculumPage() {
         imageAlt="4단계 커리큘럼 학습 로드맵 카드뉴스"
         actions={[
           { href: "/education/apply", label: "온라인 신청", tone: "navy" },
-          { href: "/education/ai-teacher", label: "AI 선생님 교실" },
+          { href: "/education/ai-teacher", label: "OST 똑똑이 선생님 교실" },
         ]}
       />
 

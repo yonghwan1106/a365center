@@ -11,6 +11,7 @@ import Closing from "@/components/Closing";
 import Visit from "@/components/Visit";
 import Footer from "@/components/Footer";
 import FloatTel from "@/components/FloatTel";
+import HopePost from "@/components/HopePost";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <Closing />
         <Visit />
       </main>
+      <HopePost />
       <Footer />
       <FloatTel />
     </>

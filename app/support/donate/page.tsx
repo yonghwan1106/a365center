@@ -61,8 +61,8 @@ export default function DonatePage() {
             <InfoCard icon="📱" title="디지털 교육 운영">
               어르신·장애인 디지털 교육 교재·교구·강사 인건비. 100% 무료 운영의 재원.
             </InfoCard>
-            <InfoCard icon="🤖" title="AI 선생님 API 비용">
-              구글 Gemini API + 음성 인식·TTS 운영비. 12인 교실 1회 운영 비용은 별도 공시 예정.
+            <InfoCard icon="🤖" title="OST 똑똑이 선생님 API 비용">
+              생성형 AI + 음성 인식·TTS 운영비. 12인 교실 1회 운영 비용은 별도 공시 예정.
             </InfoCard>
             <InfoCard icon="🥫" title="푸드뱅크 나눔">
               연합푸드뱅크 물품 수거·분류·배송 운영비. 지역 이웃 식탁 지원.

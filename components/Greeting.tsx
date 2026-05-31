@@ -23,7 +23,7 @@ export default function Greeting() {
           <div className="space-y-4 break-keep text-[15.5px] leading-[1.9] text-text-mute">
             <p>안녕하십니까. 경인 공익네트워크 대표 김재완입니다.</p>
             <p>
-              저희 경인 공익네트워크는 <strong className="text-text">사단법인 경인교회와 경인장애인선교회의 신앙적 뿌리</strong> 위에서
+              저희 경인 공익네트워크는 <strong className="text-text">사단법인 예수교장로회 경인교회와 경인장애인선교회의 신앙적 뿌리</strong> 위에서
               소외계층, 장애인, 어르신 등 우리 사회의 가장 따뜻한 손길이 필요한 이웃들을 보듬어 왔습니다.
             </p>
             <p>

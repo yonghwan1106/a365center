@@ -32,7 +32,7 @@ export default function CitizenJournalistPage() {
           <div className="grid grid-cols-1 gap-5 md:grid-cols-4">
             <InfoCard icon="📸" title="현장 촬영">지역 행사, 나눔 활동, 동네 소식을 스마트폰으로 촬영합니다.</InfoCard>
             <InfoCard icon="🎙️" title="짧은 인터뷰">어르신 눈높이에 맞는 질문지로 부담 없이 이야기를 듣습니다.</InfoCard>
-            <InfoCard icon="✍️" title="기사 초안">AI 선생님과 함께 말한 내용을 글로 정리하고 제목을 다듬습니다.</InfoCard>
+            <InfoCard icon="✍️" title="기사 초안">OST 똑똑이 선생님과 함께 말한 내용을 글로 정리하고 제목을 다듬습니다.</InfoCard>
             <InfoCard icon="📰" title="발행 연계">경인블루저널과 협력해 공익 기록으로 남길 수 있게 검토합니다.</InfoCard>
           </div>
         </div>

@@ -7,8 +7,8 @@ const COURSES = [
   { value: "life-use", label: "STEP 02 · 생활 활용반" },
   { value: "ai-practical", label: "STEP 03 · AI 실무반" },
   { value: "income", label: "STEP 04 · 수익 창출반" },
-  { value: "ai-teacher", label: "★ AI 선생님 12인 교실" },
-  { value: "all", label: "전체 과정 (4단계 + AI 선생님)" },
+  { value: "ai-teacher", label: "★ OST 똑똑이 선생님 12인 교실" },
+  { value: "all", label: "전체 과정 (4단계 + OST 똑똑이 선생님)" },
   { value: "undecided", label: "아직 정하지 못함 (상담 희망)" },
 ];
 

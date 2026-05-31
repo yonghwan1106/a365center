@@ -26,7 +26,7 @@ export default function Header() {
             {[
               { href: "/about", label: "소개" },
               { href: "/education", label: "디지털 교육" },
-              { href: "/education/ai-teacher", label: "AI 선생님" },
+              { href: "/education/ai-teacher", label: "OST 똑똑이 선생님" },
               { href: "/certificate", label: "자격과정" },
               { href: "/pillars", label: "나눔 사역" },
               { href: "/citizen-journalist", label: "시민기자단" },

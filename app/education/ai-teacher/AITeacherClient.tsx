@@ -167,7 +167,7 @@ export default function AITeacherClient() {
             disabled={loading}
             className="mt-4 block w-full rounded-xl bg-green px-4 py-5 text-[22px] font-extrabold leading-tight text-white transition-all hover:brightness-95 disabled:cursor-not-allowed disabled:bg-text-light md:text-[30px]"
           >
-            {loading ? "생각 중입니다..." : "AI 선생님에게 물어보기"}
+            {loading ? "생각 중입니다..." : "OST 똑똑이 선생님에게 물어보기"}
           </button>
 
           {error && (
@@ -179,7 +179,7 @@ export default function AITeacherClient() {
 
         <div className="min-w-0 rounded-2xl border border-line p-4 md:p-6">
           <label className="mb-4 block break-keep text-lg font-extrabold text-text md:text-2xl">
-            AI 선생님의 답변
+            OST 똑똑이 선생님의 답변
           </label>
           <div className="min-h-[360px] w-full whitespace-pre-wrap break-words rounded-2xl bg-[#ECF0F1] p-5 text-[28px] font-extrabold leading-[1.35] text-[#1A1A1A] md:text-[44px] lg:text-[52px]">
             {answer || (loading ? "답변 생성 중..." : "답변이 여기에 크게 표시됩니다.")}

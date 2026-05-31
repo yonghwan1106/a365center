@@ -21,7 +21,7 @@ export default function CertificatePage() {
             <span className="text-red">100% 전면 공개</span>
           </h1>
           <p className="mt-5 max-w-3xl break-keep text-[17px] leading-[1.8] text-text-mute">
-            과거 구글 등 외부 기관 심사 시 홈페이지에 고유번호증이 노출되지 않아 반려된 경험이 있습니다.
+            과거 외부 기관 심사 시 홈페이지에 고유번호증이 노출되지 않아 반려된 경험이 있습니다.
             우리 단체의 최우선 철학은 <strong className="text-text">‘투명성’</strong>이므로, 숨기지 않고 당당하게 100% 공개합니다.
             단, 무단 도용·직인 위조 등의 범죄를 원천 차단하기 위해
             <strong className="text-text"> 이미지 정중앙에 대각선 반투명 워터마크</strong>를 적용했습니다.
@@ -92,7 +92,7 @@ export default function CertificatePage() {
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             {[
               ["경인AI디지털교육자격협회 정관", "PDF"],
-              ["민간자격 3종목 자격관리운영규정", "PDF"],
+              ["민간자격 7종목 자격관리운영규정", "PDF"],
               ["연합푸드뱅크 정관", "PDF"],
               ["연합푸드뱅크 공동운영 협약서", "PDF"],
               ["연합푸드뱅크 내부 운영규정", "PDF"],

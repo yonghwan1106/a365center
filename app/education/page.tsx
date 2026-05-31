@@ -11,7 +11,7 @@ export const metadata = {
 const curriculum = [
   ["📱", "스마트폰 기초반", "전원 켜기, 글자 키우기, 카카오톡, 사진 촬영처럼 가장 자주 쓰는 기능부터 배웁니다.", "/education/smartphone-basic"],
   ["💳", "생활 활용반", "병원 예약, 교통 앱, 간편 결제, 온라인 민원처럼 혼자 하기 어려웠던 생활 과제를 함께 해결합니다.", "/education/life-use"],
-  ["🤖", "AI 실무반", "AI 선생님, 음성 질문, 글쓰기 도움, 정보 검색처럼 새로운 도구를 어르신 눈높이로 익힙니다.", "/education/ai-practical"],
+  ["🤖", "AI 실무반", "OST 똑똑이 선생님, 음성 질문, 글쓰기 도움, 정보 검색처럼 새로운 도구를 어르신 눈높이로 익힙니다.", "/education/ai-practical"],
   ["📈", "수익창출반", "스마트스토어, 유튜브, 재능 마켓, 지역 기록 활동 등 작은 수익 가능성까지 연결합니다.", "/education/income"],
 ];
 
@@ -27,7 +27,7 @@ export default function EducationPage() {
         imageAlt="스마트폰 기초반 카드뉴스"
         actions={[
           { href: "tel:010-9867-3121", label: "수업 문의하기" },
-          { href: "/education/ai-teacher", label: "AI 선생님 체험", tone: "navy" },
+          { href: "/education/ai-teacher", label: "OST 똑똑이 선생님 체험", tone: "navy" },
         ]}
       />
 
