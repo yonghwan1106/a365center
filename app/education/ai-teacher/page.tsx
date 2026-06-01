@@ -6,7 +6,7 @@ import AITeacherClient from "./AITeacherClient";
 export const metadata = {
   title: "OST 똑똑이 선생님 · 어르신 12명 교실 — 우리함께 평생교육·나눔센터",
   description:
-    "50인치 모니터 앞에서 어르신 12명이 함께 배우는 OST 똑똑이 선생님 파일럿. 음성 인식·음성 출력·60px 큰 글씨. 생성형 AI 기반 (Azure AI 단계적 도입 준비 중).",
+    "50인치 모니터 앞에서 어르신 12명이 함께 배우는 OST 똑똑이 선생님 파일럿. Azure Speech 음성 인식·음성 출력·60px 큰 글씨. 생성형 AI 기반.",
 };
 
 export default function AITeacherPage() {

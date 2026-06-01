@@ -10,6 +10,7 @@
 | Route | File | Method | Purpose |
 |-------|------|--------|---------|
 | `/api/gemini` | `gemini/route.ts` | POST | `{question}` 받아 서버에서 Gemini 호출 → `{answer}` 반환 |
+| `/api/speech-token` | `speech-token/route.ts` | GET | Azure Speech 구독 키로 10분짜리 인증 토큰 발급 → `{token, region}` 반환 (키 자체는 절대 미반환) |
 
 ## 동작 (`gemini/route.ts`)
 - `export const runtime = "nodejs"`.
@@ -34,10 +35,17 @@
 
 ### Internal
 - 호출처: `app/education/ai-teacher/AITeacherClient.tsx`
-- 키 출처: `.env.local`의 `GEMINI_API_KEY` (`.env.local.example` 템플릿)
+- 키 출처: `.env.local`의 `GEMINI_API_KEY`, `AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION` (`.env.local.example` 템플릿)
 
 ### External
 - Google Generative Language API `v1beta/models/{model}:generateContent`
+- Azure Speech STS `https://{region}.api.cognitive.microsoft.com/sts/v1.0/issueToken` (issueToken, 10분 토큰)
 - `next/server` (NextRequest, NextResponse)
+
+## speech-token (`speech-token/route.ts`)
+- GET. `AZURE_SPEECH_KEY`/`AZURE_SPEECH_REGION` 없으면 500. issueToken 실패 → 502.
+- `Ocp-Apim-Subscription-Key`로 구독 키 전달, 응답 토큰(text)을 `{token, region}`으로 반환. `Cache-Control: no-store`.
+- 클라이언트는 토큰을 9분 캐시 후 Speech SDK(`fromAuthorizationToken`)에 주입. 구독 키는 절대 클라이언트로 내려가지 않음.
+- 리소스: a365-speech (리소스그룹 a365-ai, Korea Central, F0). Vercel 배포 시 두 환경변수 등록 필요.
 
 <!-- MANUAL: -->
