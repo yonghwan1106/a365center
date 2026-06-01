@@ -46,8 +46,10 @@ export default function GreetingPage() {
                 <strong className="text-text"> 누구나 참여할 수 있는 무상 AI·디지털 교육</strong>을 준비하고 있습니다.
               </p>
               <p>
-                또한 ‘우리함께 평생교육·나눔센터’, ‘경인AI디지털교육자격협회’, ‘경인푸드뱅크’ 등과 연계하여
+                또한 우리함께 평생교육·나눔센터, 경인AI디지털교육자격협회, 경인푸드뱅크 등과 연계하여
                 교육, 민간자격 과정, 나눔, 지역 협력 활동을 단계적으로 넓혀가고자 합니다.
+              </p>
+              <p>
                 복지와 교육, 그리고 공익 미디어가 함께 연결될 때 더 많은 이웃에게 실제적인 도움이 전해질 수 있다고 믿습니다.
               </p>
               <p>
@@ -58,8 +60,9 @@ export default function GreetingPage() {
             </div>
 
             <div className="mt-8 border-t border-line pt-5 text-right">
-              <div className="text-sm font-semibold text-text-light">경인 공익네트워크 AI교육센터장</div>
-              <div className="mt-1 text-xl font-extrabold tracking-tight text-text">김재완</div>
+              <div className="text-sm font-semibold text-text-light">경인 공익네트워크</div>
+              <div className="text-sm font-semibold text-text-light">우리함께평생교육·나눔센터</div>
+              <div className="mt-1 text-xl font-extrabold tracking-tight text-text">AI교육센터장 김재완</div>
             </div>
           </div>
         </div>
