@@ -73,7 +73,7 @@ export default function Footer() {
               <li>☎ 010-9867-3121<br />· 010-7708-7006</li>
               <li>✉ 일반문의 a365center@gmail.com</li>
               <li>✉ 희망우체국 ost@a365.or.kr</li>
-              <li>✉ 민간자격 admin@a365.or.kr</li>
+              <li>✉ 민간자격 admin@a365center.or.kr</li>
               <li>🌐 a365center.or.kr</li>
               <li>🔗 <a href="https://a365.or.kr" target="_blank" rel="noopener" className="underline hover:text-white">경인교회 공식 a365.or.kr</a></li>
             </ul>

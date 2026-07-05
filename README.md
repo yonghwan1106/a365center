@@ -1,6 +1,6 @@
 # a365center-preview — 경인장애인선교회 통합 홈페이지 라이브 프로토타입
 
-> 제작 박용환 · 의뢰 경인장애인선교회·경인 공익네트워크 김재완 대표 · 도메인 a365center.or.kr (예정)
+> 제작 박용환 · 의뢰 경인장애인선교회·경인 공익네트워크 김재완 대표 · 도메인 https://a365center.or.kr (라이브)
 > 생성 2026-05-25 (D-5 사전 셋업)
 > 기반 Next.js 16.2.6 + React 19.2.4 + Tailwind CSS v4 + TypeScript 5
 
@@ -185,3 +185,4 @@ Tailwind v4의 `@theme inline` 패턴 → 클래스에서 `bg-red`, `text-yellow
 ## 📝 갱신 이력
 
 - 2026-05-25 v1 박용환 작성 (P2 자율 판단 산출, 회신 무관 D-5 사전 셋업)
+- 2026-07-05 푸터 수정 — 의뢰인(김재완 대표) 요청으로 민간자격 이메일 admin@a365.or.kr → admin@a365center.or.kr 변경 (Footer.tsx). 도메인 a365center.or.kr 라이브 연결 확인, 헤더 표기 갱신
