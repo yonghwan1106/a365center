@@ -41,7 +41,7 @@ export default function Hero() {
           <div className="flex max-w-xl items-start gap-[10px] rounded-xl border border-[#F7D981] border-l-4 border-l-yellow-strong bg-yellow px-4 py-3 text-[13px] font-semibold leading-[1.6] text-[#7C2D12] shadow-card-sm sm:px-5 sm:py-[14px] sm:text-sm sm:leading-[1.65]">
             <span className="text-lg leading-none sm:text-xl">☞</span>
             <span className="break-keep">
-              <strong>5월 교육생 모집 중</strong> (선착순 10명) · 창업반 곧 마감입니다.
+              <strong>교육생 상시 모집 중</strong> · 언제든지 전화로 신청하실 수 있습니다.
             </span>
           </div>
         </div>

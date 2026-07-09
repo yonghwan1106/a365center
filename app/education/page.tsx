@@ -78,8 +78,8 @@ export default function EducationPage() {
       </section>
 
       <CTASection
-        title="5월 교육생 모집 중입니다"
-        description="정원과 시간표는 전화로 먼저 확인해주세요. 선착순 접수로 조기 마감될 수 있습니다."
+        title="교육생 상시 모집 중입니다"
+        description="정원과 시간표는 전화로 먼저 확인해주세요. 반별 정원이 차면 다음 기수로 안내해 드립니다."
       />
     </SiteChrome>
   );
