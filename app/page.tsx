@@ -12,6 +12,7 @@ import Visit from "@/components/Visit";
 import Footer from "@/components/Footer";
 import FloatTel from "@/components/FloatTel";
 import HopePost from "@/components/HopePost";
+import AIGateBanner from "@/components/AIGateBanner";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <Closing />
         <Visit />
       </main>
+      <AIGateBanner />
       <HopePost />
       <Footer />
       <FloatTel />
