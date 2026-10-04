@@ -1,26 +1,6 @@
-// 챗지피티·제미나이 배움터 바로가기 — 전 페이지 공통 하단 띠배너 (2026-07-09 김재완 대표 요청)
-// 복제 사이트: gpt.a365.or.kr / gemini.a365.or.kr (Vercel a365-gpt · a365-gemini)
+// AI 배움터 바로가기 — 전 페이지 공통 하단 띠배너 (2026-07-09 김재완 대표 요청)
+// 2026-10-04 박용환 지시로 '챗지피티 가는 길'(gpt.a365.or.kr) 카드 삭제 — 현재 제미나이 카드만 남음
 const GATES = [
-  {
-    href: "https://gpt.a365.or.kr",
-    label: "챗지피티 가는 길",
-    desc: "챗GPT(ChatGPT)와 함께 배우는 곳",
-    addr: "gpt.a365.or.kr",
-    chipClass: "bg-[#10A37F]",
-    arrowClass: "bg-[#10A37F]",
-    icon: (
-      // 말풍선 (챗GPT)
-      <svg viewBox="0 0 24 24" fill="none" className="h-7 w-7 md:h-8 md:w-8" aria-hidden="true">
-        <path
-          d="M12 3C7 3 3 6.6 3 11c0 2.4 1.2 4.6 3.2 6.1L5.5 21l4-1.7c.8.2 1.6.3 2.5.3 5 0 9-3.6 9-8S17 3 12 3Z"
-          fill="#fff"
-        />
-        <circle cx="8.5" cy="11" r="1.3" fill="#10A37F" />
-        <circle cx="12" cy="11" r="1.3" fill="#10A37F" />
-        <circle cx="15.5" cy="11" r="1.3" fill="#10A37F" />
-      </svg>
-    ),
-  },
   {
     href: "https://gemini.a365.or.kr",
     label: "제미나이 가는 길",
@@ -53,7 +33,7 @@ export default function AIGateBanner() {
           </p>
         </div>
 
-        <div className="mx-auto flex max-w-3xl flex-col gap-4 md:flex-row md:gap-6">
+        <div className={`mx-auto flex flex-col gap-4 md:flex-row md:gap-6 ${GATES.length === 1 ? "max-w-xl" : "max-w-3xl"}`}>
           {GATES.map((g) => (
             <a
               key={g.addr}
