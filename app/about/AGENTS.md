@@ -28,7 +28,7 @@
 
 ### Internal
 - `@/components/SiteChrome`, `@/components/SubpageBlocks`
-- 이미지 `/images/generated/{representative-greeting,history-timeline,identity-umbrella,organization-chart,documents-archive}-card.png`, `/images/legal/certificate.png`
+- 이미지 `/images/generated/{representative-greeting,history-timeline,identity-umbrella,organization-chart,documents-archive}-card.png`, `/images/legal/certificate-20260914.png`
 
 ### External
 - `next` (Metadata)

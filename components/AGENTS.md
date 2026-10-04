@@ -51,7 +51,7 @@
 
 ### Internal
 - `Header`/`Footer`/`FloatTel` ← `SiteChrome`와 `app/page.tsx` 양쪽에서 사용
-- 이미지 `public/images/generated/*`, 법인 증빙 `public/images/legal/certificate.png`
+- 이미지 `public/images/generated/*`, 법인 증빙 `public/images/legal/certificate-20260914.png`
 - 라우트 링크 `app/**`
 
 ### External
