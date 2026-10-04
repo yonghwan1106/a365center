@@ -11,7 +11,7 @@ Next.js 정적 자산 루트. 페이지 히어로/카드 이미지(AI 생성), �
 |------|-------------|
 | `*.svg` (file/globe/next/vercel/window) | Next.js 스캐폴드 기본 SVG (대부분 미사용) |
 | `images/generated/` | AI 생성 카드/히어로 이미지 25종 (`<slug>-card.png`) + 프롬프트 로그 2종 |
-| `images/legal/` | 법인 증빙 — `certificate-20260914.png`(고유번호증 2026-09-14 정정 발급본 렌더, 생년월일 가림), `certificate_pic.jpg`(사진본) |
+| `images/legal/` | 법인 증빙 — `certificate-20260914.png`(고유번호증 2026-09-14 정정 발급본 렌더, 생년월일 가림) |
 
 ## images/generated/ 규칙
 - **명명**: `<slug>-card.png` 가 각 페이지 `SubpageHero image` prop에 1:1 대응 (+ 홈 히어로 `hero-senior-smartphone-class.png`).
