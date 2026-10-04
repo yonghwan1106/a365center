@@ -77,7 +77,7 @@ export async function generateMetadata({ params }: { params: Promise<{ course: s
   const item = courses[course as CourseKey];
   if (!item) return {};
   return {
-    title: `${item.title} — 우리함께 평생교육·나눔센터`,
+    title: item.title,
     description: item.description,
   };
 }

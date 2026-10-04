@@ -3,7 +3,7 @@ import SiteChrome from "@/components/SiteChrome";
 import { CTASection, SectionHeader, SubpageHero } from "@/components/SubpageBlocks";
 
 export const metadata = {
-  title: "4단계 커리큘럼 — 우리함께 평생교육·나눔센터",
+  title: "4단계 커리큘럼",
   description: "스마트폰 기초 → 생활 활용 → AI 실무 → 수익 창출. 어르신·장애인이 무리 없이 따라올 수 있는 4단계 학습 로드맵.",
 };
 

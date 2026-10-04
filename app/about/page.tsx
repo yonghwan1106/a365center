@@ -2,7 +2,7 @@ import SiteChrome from "@/components/SiteChrome";
 import { CTASection, InfoCard, SectionHeader, SubpageHero } from "@/components/SubpageBlocks";
 
 export const metadata = {
-  title: "센터소개 — 우리함께 평생교육·나눔센터",
+  title: "센터소개",
   description: "메디스타워 213호에서 시작하는 어르신·장애인 디지털 교육과 나눔 사역의 운영 철학.",
 };
 

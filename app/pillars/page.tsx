@@ -3,7 +3,7 @@ import SiteChrome from "@/components/SiteChrome";
 import { CTASection, InfoCard, SectionHeader, SubpageHero } from "@/components/SubpageBlocks";
 
 export const metadata = {
-  title: "나눔 사역 — 우리함께 평생교육·나눔센터",
+  title: "나눔 사역",
   description: "푸드뱅크, 공간 공유, 시민기자단으로 이어지는 우리함께의 세 가지 지역 사역.",
 };
 

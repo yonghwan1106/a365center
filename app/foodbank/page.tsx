@@ -2,7 +2,7 @@ import SiteChrome from "@/components/SiteChrome";
 import { CTASection, InfoCard, SectionHeader, SubpageHero } from "@/components/SubpageBlocks";
 
 export const metadata = {
-  title: "푸드뱅크 — 우리함께 평생교육·나눔센터",
+  title: "푸드뱅크",
   description: "지역 협력 네트워크 기반 식품 나눔 사역과 운영 절차.",
 };
 

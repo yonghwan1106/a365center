@@ -4,7 +4,7 @@ import SiteChrome from "@/components/SiteChrome";
 import { CTASection, InfoCard, SectionHeader, SubpageHero } from "@/components/SubpageBlocks";
 
 export const metadata = {
-  title: "디지털 교육 — 우리함께 평생교육·나눔센터",
+  title: "디지털 교육",
   description: "스마트폰 기초부터 생활 활용, AI 실무, 수익 창출까지 이어지는 어르신·장애인 무료 교육 과정.",
 };
 

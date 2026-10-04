@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="relative bg-navy-deep pt-12 pb-8 text-[13.5px] text-white/75">
       <div className="wrap">
         <div className="mb-6 max-w-4xl text-xs leading-[1.7] text-white/55">
-          사단법인 예수교장로회 경인교회 · 경인장애인선교회 부설 · 우리함께 평생교육·나눔센터 · 경인AI디지털교육자격협회 · 연합푸드뱅크 · 경인 평생교육·나눔 사회적협동조합 통합 운영
+          경인장애인선교회 부설 · 우리함께 평생교육·나눔센터 · 경인AI디지털교육자격협회 · 연합푸드뱅크 · 경인 평생교육·나눔 사회적협동조합 통합 운영
         </div>
 
         <div className="mb-9 grid grid-cols-2 gap-7 md:grid-cols-4">
@@ -88,12 +88,17 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-5 text-xs leading-[1.6] text-white/45">
-          <div>© 2026 사단법인 예수교장로회 경인교회 부설 경인장애인선교회. All rights reserved.</div>
-          <div className="flex gap-4">
-            <a href="/about/certificate" className="hover:text-white">고유번호증</a>
-            <a href="/about/documents" className="hover:text-white">정관 PDF</a>
-            <span>개인정보처리방침</span>
+        <div className="border-t border-white/10 pt-5">
+          <p className="mb-2 break-keep text-[13.5px] font-bold leading-[1.6] text-white/85">
+            <span className="whitespace-nowrap">단체명: 경인장애인선교회</span> | <span className="whitespace-nowrap">대표자: 김재완</span> | <span className="whitespace-nowrap">고유번호: 613-82-91074</span>
+          </p>
+          <div className="flex flex-wrap items-center justify-between gap-3 text-xs leading-[1.6] text-white/45">
+            <div>© 2026 경인장애인선교회. All rights reserved.</div>
+            <div className="flex gap-4">
+              <a href="/about/certificate" className="hover:text-white">고유번호증</a>
+              <a href="/about/documents" className="hover:text-white">정관 PDF</a>
+              <span>개인정보처리방침</span>
+            </div>
           </div>
         </div>
       </div>

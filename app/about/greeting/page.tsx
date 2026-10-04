@@ -2,7 +2,7 @@ import SiteChrome from "@/components/SiteChrome";
 import { CTASection, SectionHeader, SubpageHero } from "@/components/SubpageBlocks";
 
 export const metadata = {
-  title: "AI교육센터장 인사말 — 우리함께 평생교육·나눔센터",
+  title: "AI교육센터장 인사말",
   description: "경인 공익네트워크 AI교육센터장 김재완 인사말 — 교육·복지·나눔을 연결하여 소외된 이웃과 늘 함께하겠습니다.",
 };
 

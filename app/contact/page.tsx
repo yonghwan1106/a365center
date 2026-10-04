@@ -3,7 +3,7 @@ import SiteChrome from "@/components/SiteChrome";
 import { CTASection, InfoCard, SectionHeader, SubpageHero } from "@/components/SubpageBlocks";
 
 export const metadata = {
-  title: "오시는 길 — 우리함께 평생교육·나눔센터",
+  title: "오시는 길",
   description: "경기도 용인특례시 기흥구 동백죽전대로 341, 메디스타워 213호. 동백역 도보 5분.",
 };
 

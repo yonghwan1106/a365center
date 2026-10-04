@@ -2,7 +2,7 @@ import SiteChrome from "@/components/SiteChrome";
 import { CTASection, InfoCard, SectionHeader, SubpageHero } from "@/components/SubpageBlocks";
 
 export const metadata = {
-  title: "공간 공유 — 우리함께 평생교육·나눔센터",
+  title: "공간 공유",
   description: "메디스타워 213호를 작은 모임과 비영리 교육 활동에 연결하는 공간 공유 안내.",
 };
 

@@ -2,7 +2,7 @@ import SiteChrome from "@/components/SiteChrome";
 import { CTASection, InfoCard, SectionHeader, SubpageHero } from "@/components/SubpageBlocks";
 
 export const metadata = {
-  title: "시민기자단 — 우리함께 평생교육·나눔센터",
+  title: "시민기자단",
   description: "경인블루저널과 함께하는 지역 어르신 시민기자단 양성 및 기록 활동.",
 };
 
